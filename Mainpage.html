@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antique Aroma</title>
+    <style>
+        #g1{
+            width: 200px;
+            height: 200px;
+            margin-top: -4%;
+        }
+        table a{
+            font-size: 25px;
+            text-decoration: none;
+            color: white;
+        }
+        td:hover {
+            background-color: white;
+        }
+        td:hover a{
+          color: black;
+        }
+        table,td,tr{
+            border-radius: 20px;  
+        }
+        table{
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            margin-top: -4%;
+            background-color:  black;
+            
+        }
+        
+  
+    .slideshow-container {
+        position: relative;
+        margin: auto;
+        padding-top: 2em;
+        overflow: hidden;
+        margin-left: 9em;
+      }
+      
+      .slide {
+        display: none;
+      }
+      
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      .s6 {
+        width: 90%;
+        height: 40%;
+    }
+    .s7{
+      width: 240px;
+      height: 240px;
+      margin-left: 3em;
+      border-radius: 50%;
+    }
+    .menu{
+      padding-top: 4em;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .s7:hover {
+      animation: blink 3s infinite;
+    }
+    .inter:hover{
+      animation: blink 3s infinite;
+    }
+    .inter{
+      width: 250px;
+      height: 380px;
+      margin-left: 2em;
+      border-radius: 20px;
+    }
+    .s8{
+      display: flex;
+    }
+    #c1{
+      display: flex;
+    }
+    #cap{
+      margin-left: 10em;
+      font-family: cursive;
+    }
+    #cap1{
+      text-align: center;
+      font-family: cursive;
+      margin-left: 2em;
+      background-color: black;
+      color: white;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 4;
+  }
+  #names{
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 7.6em;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+    <div id="c1">
+    <img src="Logo.png" alt="Logo" id="g1">
+    <h1 id="cap">TRAVEL THROUGH TASTE......!!</h1>
+    </div>
+    <br><br>
+    <header>
+        <table>
+            <tr>
+                <td><a href="#indian">Indian</a></td>
+                <td><a href="#international">International</a></td>
+                <td><a href="#fusion">Fusion</a></td>
+            </tr>
+        </table>
+  </header>
+    <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="img/image1.jpg" alt="Slide 1" class="s6">
+        </div>
+        <div class="slide fade">
+          <img src="img/image2.jpg" alt="Slide 2" class="s6">
+        </div>
+        <div class="slide fade">
+          <img src="img/image3.jpg" alt="Slide 3" class="s6">
+        </div>
+        <div class="slide fade">
+          <img src="img/image4.webp" alt="Slide 4" class="s6">
+        </div>
+        <div class="slide fade">
+          <img src="img/image5.png" alt="Slide 5" class="s6">
+        </div>
+        <div class="slide fade">
+          <img src="img/cross-1.jpg" alt="Slide 6" class="s6">
+        </div>
+      </div>
+      <section id="indian">
+      <div class="menu">
+          <h1 id="cap1">INDIAN</h1>
+          <div id="names">
+            <p class="name">EAST</p>
+            <p style="margin-left: 11.5em;" class="name">WEST</p>
+            <p style="margin-left: 11.5em;" class="name">MIDDLE</p>
+            <p style="margin-left: 10.5em;" class="name">NORTH</p>
+            <p style="margin-left: 10.5em;" class="name">SOUTH</p>
+          </div>
+          <a href="east.html" class="image-link">
+          <img src="img/east.jpg" alt="East" class="s7"></a>
+          <a href="west.html" >
+          <img src="img/west.webp" alt="West" class="s7"></a>
+          <a href="middle.html" >
+          <img src="img/middle.jpg" alt="Middle" class="s7"></a>
+          <a href="north.html" >
+          <img src="img/north.jpg" alt="North" class="s7"></a>
+          <a href="south.html" >
+            <img src="img/south.jpg" alt="South" class="s7">
+          </a>
+      </div>
+    </section><br><br>
+    <section id="international">
+      <h1 id="cap1">International</h1>
+      <div class="s8">
+        <div id="ratatouille">
+          <a href="rata.html">
+          <img src="img/ratatouille01.jpg" alt="" class="inter"></a>
+        </div>
+        <div id="tacos">
+          <a href="tacos.html">
+          <img src="img/tacos.jpg" alt="" class="inter"></a>
+        </div>
+        <div id="sushi">
+          <a href="sushi.html">
+          <img src="img/sushi.jpg" alt="" class="inter"></a>
+        </div>
+        <div id="baklava">
+          <a href="baklava.html">
+          <img src="img/baklava.jpg" alt="" class="inter"></a>
+        </div>
+        <div id="pho">
+          <a href="ramen.html">
+          <img src="img/ramen.avif" alt="" class="inter"></a>
+        </div>
+      </div>
+    </section>
+    <section id="fusion">
+      <h1 id="cap1">FUSION</h1>
+      <a href="pastapie.html">
+        <img src="img/pastapie.webp" alt="" class="inter"></a>
+      <a href="cheesecake.html">
+          <img src="img/cheesecake.webp" alt="" class="inter"></a>
+      <a href="pizzasandwich.html" >
+          <img src="img/pizzasandwich.jpg" alt="" class="inter"></a>
+      <a href="cookiecrossoint.html" >
+        <img src="img/Croissant.webp" alt="" class="inter"></a>
+      <a href="pizzawaffle.html" >
+        <img src="img/Pizza-Waffles-32.jpg" alt="" class="inter"></a>
+    </section>
+    <footer>
+      <p>&copy; 2024 Antique Aroma. All rights reserved.</p>
+  </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+          let slides = document.getElementsByClassName("slide");
+          for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 2000);
+        }
+    
+    </script>
+</body>
+</html>

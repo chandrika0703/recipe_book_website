@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="icon" href="Logo.png" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-image: url(img/final.png);
+      background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            background-position: center;
+    }
+
+    .container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .text-area {
+      position: absolute;
+      overflow: hidden;
+      width: 300px;
+      background-color: rgb(31, 40, 46);
+      padding: 10px;
+    }
+
+    .text-area img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .text-area1 {
+      bottom: -700px;
+      margin-left: 30em;
+      
+      /*transform: translateX(-50%);*/
+      transform: translateX(0%);
+      transform: translateY(-8%);
+      
+      
+      transition: bottom 0.5s ease;
+      
+    }
+
+    .text-area2 {
+      bottom: -700px;
+      margin-left: 1em;
+      height: auto;
+    
+      transform: translateX(0%);
+      transform: translateY(-8%);
+      transition: bottom 0.5s ease;
+    }
+    
+
+    .text-area3 {
+      top: 50%;
+      right: -500px;
+      transform: translateY(-40%);
+      width: 30em;
+      transition: right 0.5s ease;
+      height:auto;
+      margin-top: -8em;
+    }
+    p{
+        color: white;
+    }
+    .text-area text-area3
+    {
+        display:inline-block;
+    }
+    .t1{
+        float: left;
+        width: 10em;
+    }
+    .t2{
+        float: right;
+        width: 19em;
+    }
+    h1{
+        text-align: center;
+        color:#B27E50;
+    }
+    .buttons {
+      position: absolute;
+      top: 25px;
+      right: 100px;
+      display: flex;
+      border-radius: 5em;
+    }
+
+    .buttons button {
+      margin-right: 10px;
+      padding: 15px 30px; /* Larger size */
+      background-color: #b27e50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      border-radius: 2em;
+    }
+
+    .buttons button:last-child {
+      margin-right: 0;
+    }
+
+    .buttons button:hover {
+      background-color: #8a5f3c;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+  
+
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div >
+        <img style="height: 20em; margin: -3em;" src="img/Logo.png" alt="">
+    </div>
+    <div class="buttons">
+
+        <button><a href="login.html">Login</a></button>
+        <button ><a href="aboutus1.html">About Us</a></button>
+      </div>
+      
+
+
+    <div class="text-area text-area1">
+      <img src="img/Vada-Pav.jpg" alt="Image 1">
+      <h1>INDIAN</h1>
+      <p>
+        Authentic Indian cuisine is incredibly diverse, with each region of
+        the country offering its own unique flavors, ingredients, and cooking techniques.
+        Explore our wesite to travel India through its authentic delicacies.
+        and get your self on to try these with your hands.
+
+      </p>
+
+        
+    </div>
+    <div class="text-area text-area2">
+      <img src=" img/bka.jpg" alt="Image 2">
+      <h1>INTERNATIONAL</h1>
+      <p >
+        Authentic international dishes showcase diverse culinary traditions globally,
+        embodying unique flavors, techniques, and cultural significance.
+        Explore our wesite to travel World through its authentic delicacies.
+        and get your self on to try these with your hands.
+       </p>
+    </div>
+    <div class="text-area text-area3">
+        <div class="t1"><img  src="img/pizza.jpg" alt="Image 3"></div>
+       
+      <div class="t2">
+        <h1>FUSION</h1><p>Authentic fusion dishes blend diverse culinary traditions.
+          They marry ingredients, techniques. Each dish is a canvas
+          of innovation.
+          Explore our wesite to travel World through its authentic delicacies.
+        and get your self on to try these with your hands.
+        </p></div>
+      
+      
+    </div>
+  </div>
+
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        document.querySelector('.text-area1').style.bottom = '0';
+      }, 1000);
+      setTimeout(function() {
+        document.querySelector('.text-area2').style.bottom = '0';
+      }, 1000);
+      setTimeout(function() {
+        document.querySelector('.text-area3').style.right = '0';
+      }, 1000);
+    };
+  </script>
+
+
+<h1 style="margin-left: 70em;margin-top: 70em">AUTHENTIC AROMA</h1>
+</body>
+</html>
